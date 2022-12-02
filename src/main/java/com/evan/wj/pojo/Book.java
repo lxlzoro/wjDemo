@@ -24,11 +24,11 @@ public class Book {
     @JoinColumn(name = "cid")
     private Category category;
 
-    String cover;
-    String title;
-    String author;
-    String date;
-    String press;
-    String abs;
+    private String cover;
+    private String title;
+    private String author;
+    private String date;
+    private String press;
+    private String abs;
 
 }
